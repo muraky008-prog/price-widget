@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07 14:46 KST",
- "updated_unix": 1794030386,
+ "updated": "2026-11-07 15:06 KST",
+ "updated_unix": 1794031615,
  "errors": [],
  "assets": [
   {
@@ -9,60 +9,60 @@
    "name": "Bitcoin",
    "type": "coin",
    "rank": 1,
-   "price": 76012.01,
-   "change24h": 0.45728,
+   "price": 76034.02,
+   "change24h": 0.5982,
    "resistance": [
     {
      "name": "BMSB 상단",
-     "value": 76701.453595,
-     "pct": 0.91
+     "value": 76703.454504,
+     "pct": 0.88
     },
     {
      "name": "100일 이평",
-     "value": 77228.0146,
-     "pct": 1.6
+     "value": 77228.2347,
+     "pct": 1.57
     },
     {
      "name": "50일 이평",
-     "value": 81952.4844,
-     "pct": 7.82
+     "value": 81952.9246,
+     "pct": 7.78
     },
     {
      "name": "100주 이평",
-     "value": 89114.4691,
-     "pct": 17.24
+     "value": 89114.6892,
+     "pct": 17.2
     }
    ],
    "support": [
     {
      "name": "50주 이평",
-     "value": 75558.4828,
-     "pct": -0.6
+     "value": 75558.923,
+     "pct": -0.62
     },
     {
      "name": "BMSB 중앙",
-     "value": 75192.981548,
-     "pct": -1.08
+     "value": 75194.532252,
+     "pct": -1.1
     },
     {
      "name": "BMSB 하단",
-     "value": 73684.5095,
-     "pct": -3.06
+     "value": 73685.61,
+     "pct": -3.09
     },
     {
      "name": "200일 이평",
-     "value": 73240.91125,
-     "pct": -3.65
+     "value": 73241.0213,
+     "pct": -3.67
     },
     {
      "name": "200주 이평",
-     "value": 67766.28405,
-     "pct": -10.85
+     "value": 67766.3941,
+     "pct": -10.87
     },
     {
      "name": "실현가격",
      "value": 53994.61,
-     "pct": -28.97
+     "pct": -28.99
     }
    ],
    "note": "실현가격 기준일 2026-10-31 (무료 데이터 약 7일 지연)"
@@ -73,55 +73,55 @@
    "name": "Ethereum",
    "type": "coin",
    "rank": 2,
-   "price": 2248.6,
-   "change24h": 1.10183,
+   "price": 2247.97,
+   "change24h": 1.2028,
    "resistance": [
     {
      "name": "BMSB 중앙",
-     "value": 2265.319352,
-     "pct": 0.74
+     "value": 2265.274966,
+     "pct": 0.77
     },
     {
      "name": "50주 이평",
-     "value": 2304.0198,
-     "pct": 2.46
+     "value": 2304.0072,
+     "pct": 2.49
     },
     {
      "name": "BMSB 상단",
-     "value": 2310.785204,
-     "pct": 2.77
+     "value": 2310.727932,
+     "pct": 2.79
     },
     {
      "name": "100일 이평",
-     "value": 2368.1333,
-     "pct": 5.32
+     "value": 2368.127,
+     "pct": 5.35
     },
     {
      "name": "50일 이평",
-     "value": 2493.4114,
-     "pct": 10.89
+     "value": 2493.3988,
+     "pct": 10.92
     },
     {
      "name": "200주 이평",
-     "value": 2558.60715,
-     "pct": 13.79
+     "value": 2558.604,
+     "pct": 13.82
     },
     {
      "name": "100주 이평",
-     "value": 2708.764,
-     "pct": 20.46
+     "value": 2708.7577,
+     "pct": 20.5
     }
    ],
    "support": [
     {
      "name": "BMSB 하단",
-     "value": 2219.8535,
-     "pct": -1.28
+     "value": 2219.822,
+     "pct": -1.25
     },
     {
      "name": "200일 이평",
-     "value": 2157.27785,
-     "pct": -4.06
+     "value": 2157.2747,
+     "pct": -4.03
     }
    ],
    "note": null
@@ -132,55 +132,55 @@
    "name": "BNB",
    "type": "coin",
    "rank": 3,
-   "price": 695.39,
-   "change24h": 0.62145,
+   "price": 695.49,
+   "change24h": 0.79557,
    "resistance": [
     {
      "name": "BMSB 상단",
-     "value": 699.241526,
-     "pct": 0.55
+     "value": 699.250617,
+     "pct": 0.54
     },
     {
      "name": "100일 이평",
-     "value": 706.7804,
-     "pct": 1.64
+     "value": 706.7814,
+     "pct": 1.62
     },
     {
      "name": "100주 이평",
-     "value": 727.9265,
-     "pct": 4.68
+     "value": 727.9275,
+     "pct": 4.66
     },
     {
      "name": "50일 이평",
-     "value": 745.2456,
-     "pct": 7.17
+     "value": 745.2476,
+     "pct": 7.15
     }
    ],
    "support": [
     {
      "name": "50주 이평",
-     "value": 695.178,
-     "pct": -0.03
+     "value": 695.18,
+     "pct": -0.04
     },
     {
      "name": "BMSB 중앙",
-     "value": 686.687763,
-     "pct": -1.25
+     "value": 686.694809,
+     "pct": -1.26
     },
     {
      "name": "BMSB 하단",
-     "value": 674.134,
-     "pct": -3.06
+     "value": 674.139,
+     "pct": -3.07
     },
     {
      "name": "200일 이평",
-     "value": 657.6831,
-     "pct": -5.42
+     "value": 657.6836,
+     "pct": -5.44
     },
     {
      "name": "200주 이평",
-     "value": 563.7411,
-     "pct": -18.93
+     "value": 563.7416,
+     "pct": -18.94
     }
    ],
    "note": null
@@ -191,53 +191,53 @@
    "name": "XRP",
    "type": "coin",
    "rank": 4,
-   "price": 1.1622,
-   "change24h": -3.08553,
+   "price": 1.1617,
+   "change24h": -2.63877,
    "resistance": [
     {
      "name": "BMSB 하단",
-     "value": 1.256485,
-     "pct": 8.11
+     "value": 1.25646,
+     "pct": 8.16
     },
     {
      "name": "200일 이평",
-     "value": 1.270574,
-     "pct": 9.32
+     "value": 1.270571,
+     "pct": 9.37
     },
     {
      "name": "200주 이평",
-     "value": 1.283348,
-     "pct": 10.42
+     "value": 1.283346,
+     "pct": 10.47
     },
     {
      "name": "BMSB 중앙",
-     "value": 1.28673,
-     "pct": 10.72
+     "value": 1.286694,
+     "pct": 10.76
     },
     {
      "name": "100일 이평",
-     "value": 1.313065,
-     "pct": 12.98
+     "value": 1.31306,
+     "pct": 13.03
     },
     {
      "name": "BMSB 상단",
-     "value": 1.316974,
-     "pct": 13.32
+     "value": 1.316929,
+     "pct": 13.36
     },
     {
      "name": "50일 이평",
-     "value": 1.377872,
-     "pct": 18.56
+     "value": 1.377862,
+     "pct": 18.61
     },
     {
      "name": "50주 이평",
-     "value": 1.434412,
-     "pct": 23.42
+     "value": 1.434402,
+     "pct": 23.47
     },
     {
      "name": "100주 이평",
-     "value": 1.983335,
-     "pct": 70.65
+     "value": 1.98333,
+     "pct": 70.73
     }
    ],
    "support": [],
@@ -249,55 +249,55 @@
    "name": "Solana",
    "type": "coin",
    "rank": 5,
-   "price": 90.17,
-   "change24h": 0.85238,
+   "price": 90.28,
+   "change24h": 1.0991,
    "resistance": [
     {
      "name": "BMSB 하단",
-     "value": 93.3445,
-     "pct": 3.52
+     "value": 93.35,
+     "pct": 3.4
     },
     {
      "name": "BMSB 중앙",
-     "value": 95.308831,
-     "pct": 5.7
+     "value": 95.316581,
+     "pct": 5.58
     },
     {
      "name": "50주 이평",
-     "value": 96.062,
-     "pct": 6.53
+     "value": 96.0642,
+     "pct": 6.41
     },
     {
      "name": "BMSB 상단",
-     "value": 97.273162,
-     "pct": 7.88
+     "value": 97.283162,
+     "pct": 7.76
     },
     {
      "name": "100일 이평",
-     "value": 99.2762,
-     "pct": 10.1
+     "value": 99.2773,
+     "pct": 9.97
     },
     {
      "name": "50일 이평",
-     "value": 107.796,
-     "pct": 19.55
+     "value": 107.7982,
+     "pct": 19.4
     },
     {
      "name": "200주 이평",
-     "value": 113.6805,
-     "pct": 26.07
+     "value": 113.68105,
+     "pct": 25.92
     },
     {
      "name": "100주 이평",
-     "value": 136.2815,
-     "pct": 51.14
+     "value": 136.2826,
+     "pct": 50.96
     }
    ],
    "support": [
     {
      "name": "200일 이평",
-     "value": 89.05745,
-     "pct": -1.23
+     "value": 89.058,
+     "pct": -1.35
     }
    ],
    "note": null
@@ -308,55 +308,55 @@
    "name": "TRON",
    "type": "coin",
    "rank": 6,
-   "price": 0.3175,
-   "change24h": -0.37897,
+   "price": 0.3179,
+   "change24h": -0.14798,
    "resistance": [
     {
      "name": "50주 이평",
-     "value": 0.318212,
-     "pct": 0.22
+     "value": 0.31822,
+     "pct": 0.1
     },
     {
      "name": "BMSB 하단",
-     "value": 0.328962,
-     "pct": 3.61
+     "value": 0.328998,
+     "pct": 3.49
     },
     {
      "name": "BMSB 중앙",
-     "value": 0.329974,
-     "pct": 3.93
+     "value": 0.330002,
+     "pct": 3.81
     },
     {
      "name": "BMSB 상단",
-     "value": 0.330985,
-     "pct": 4.25
+     "value": 0.331005,
+     "pct": 4.12
     },
     {
      "name": "50일 이평",
-     "value": 0.331554,
-     "pct": 4.43
+     "value": 0.331562,
+     "pct": 4.3
     },
     {
      "name": "100일 이평",
-     "value": 0.33289,
-     "pct": 4.85
+     "value": 0.332894,
+     "pct": 4.72
     },
     {
      "name": "200일 이평",
-     "value": 0.333451,
-     "pct": 5.02
+     "value": 0.333453,
+     "pct": 4.89
     }
    ],
    "support": [
     {
      "name": "100주 이평",
-     "value": 0.299029,
-     "pct": -5.82
+     "value": 0.299033,
+     "pct": -5.93
     },
     {
      "name": "200주 이평",
-     "value": 0.204263,
-     "pct": -35.67
+     "value": 0.204265,
+     "pct": -35.75
     }
    ],
    "note": null
@@ -367,54 +367,54 @@
    "name": "Zcash",
    "type": "coin",
    "rank": 7,
-   "price": 1312.1,
-   "change24h": 3.44978,
+   "price": 1313.16,
+   "change24h": 4.55806,
    "resistance": [],
    "support": [
     {
      "name": "50일 이평",
-     "value": 1311.8108,
-     "pct": -0.02
+     "value": 1311.832,
+     "pct": -0.1
     },
     {
      "name": "100일 이평",
-     "value": 1055.6635,
-     "pct": -19.54
+     "value": 1055.6741,
+     "pct": -19.61
     },
     {
      "name": "BMSB 상단",
-     "value": 990.729235,
-     "pct": -24.49
+     "value": 990.825599,
+     "pct": -24.55
     },
     {
      "name": "BMSB 중앙",
-     "value": 958.138618,
-     "pct": -26.98
+     "value": 958.2133,
+     "pct": -27.03
     },
     {
      "name": "BMSB 하단",
-     "value": 925.548,
-     "pct": -29.46
+     "value": 925.601,
+     "pct": -29.51
     },
     {
      "name": "200일 이평",
-     "value": 771.04435,
-     "pct": -41.24
+     "value": 771.04965,
+     "pct": -41.28
     },
     {
      "name": "50주 이평",
-     "value": 595.8832,
-     "pct": -54.59
+     "value": 595.9044,
+     "pct": -54.62
     },
     {
      "name": "100주 이평",
-     "value": 348.7872,
-     "pct": -73.42
+     "value": 348.7978,
+     "pct": -73.44
     },
     {
      "name": "200주 이평",
-     "value": 190.32955,
-     "pct": -85.49
+     "value": 190.33485,
+     "pct": -85.51
     }
    ],
    "note": null
@@ -425,45 +425,45 @@
    "name": "Hyperliquid",
    "type": "coin",
    "rank": 8,
-   "price": 79.15,
-   "change24h": 1.95939,
+   "price": 79.31,
+   "change24h": 2.4341,
    "resistance": [
     {
      "name": "50일 이평",
-     "value": 85.335247,
-     "pct": 7.81
+     "value": 85.338447,
+     "pct": 7.6
     }
    ],
    "support": [
     {
      "name": "100일 이평",
-     "value": 78.467746,
-     "pct": -0.86
+     "value": 78.469346,
+     "pct": -1.06
     },
     {
      "name": "BMSB 상단",
-     "value": 74.482437,
-     "pct": -5.9
+     "value": 74.490437,
+     "pct": -6.08
     },
     {
      "name": "BMSB 중앙",
-     "value": 74.257783,
-     "pct": -6.18
+     "value": 74.269055,
+     "pct": -6.36
     },
     {
      "name": "BMSB 하단",
-     "value": 74.033128,
-     "pct": -6.46
+     "value": 74.047673,
+     "pct": -6.64
     },
     {
      "name": "200일 이평",
-     "value": 67.980902,
-     "pct": -14.11
+     "value": 67.981702,
+     "pct": -14.28
     },
     {
      "name": "50주 이평",
-     "value": 52.799109,
-     "pct": -33.29
+     "value": 52.802309,
+     "pct": -33.42
     }
    ],
    "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
@@ -474,44 +474,44 @@
    "name": "Monero",
    "type": "coin",
    "rank": 9,
-   "price": 611.34,
-   "change24h": -1.10686,
+   "price": 611.52,
+   "change24h": -0.99346,
    "resistance": [],
    "support": [
     {
      "name": "50일 이평",
-     "value": 573.727482,
-     "pct": -6.15
+     "value": 573.731082,
+     "pct": -6.18
     },
     {
      "name": "100일 이평",
-     "value": 511.582059,
-     "pct": -16.32
+     "value": 511.583859,
+     "pct": -16.34
     },
     {
      "name": "BMSB 상단",
-     "value": 498.368552,
-     "pct": -18.48
+     "value": 498.384916,
+     "pct": -18.5
     },
     {
      "name": "BMSB 중앙",
-     "value": 483.945855,
-     "pct": -20.84
+     "value": 483.958537,
+     "pct": -20.86
     },
     {
      "name": "BMSB 하단",
-     "value": 469.523158,
-     "pct": -23.2
+     "value": 469.532158,
+     "pct": -23.22
     },
     {
      "name": "200일 이평",
-     "value": 433.049715,
-     "pct": -29.16
+     "value": 433.050615,
+     "pct": -29.18
     },
     {
      "name": "50주 이평",
-     "value": 418.405229,
-     "pct": -31.56
+     "value": 418.408829,
+     "pct": -31.58
     }
    ],
    "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
@@ -522,112 +522,112 @@
    "name": "Dogecoin",
    "type": "coin",
    "rank": 10,
-   "price": 0.072,
-   "change24h": 0.4493,
+   "price": 0.07205,
+   "change24h": 0.92345,
    "resistance": [
     {
      "name": "BMSB 하단",
-     "value": 0.079947,
-     "pct": 11.04
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 0.082229,
-     "pct": 14.21
+     "value": 0.079949,
+     "pct": 10.96
     },
     {
      "name": "100일 이평",
      "value": 0.082231,
-     "pct": 14.21
+     "pct": 14.13
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 0.082232,
+     "pct": 14.13
     },
     {
      "name": "BMSB 상단",
-     "value": 0.084511,
-     "pct": 17.38
+     "value": 0.084515,
+     "pct": 17.3
     },
     {
      "name": "50일 이평",
-     "value": 0.084823,
-     "pct": 17.81
+     "value": 0.084824,
+     "pct": 17.73
     },
     {
      "name": "200일 이평",
      "value": 0.085622,
-     "pct": 18.92
+     "pct": 18.84
     },
     {
      "name": "50주 이평",
-     "value": 0.096697,
-     "pct": 34.3
+     "value": 0.096698,
+     "pct": 34.21
     },
     {
      "name": "200주 이평",
      "value": 0.137672,
-     "pct": 91.21
+     "pct": 91.08
     },
     {
      "name": "100주 이평",
      "value": 0.161348,
-     "pct": 124.09
+     "pct": 123.94
     }
    ],
    "support": [],
    "note": null
   },
   {
-   "id": "gspc",
-   "symbol": "GSPC",
-   "name": "S&P 500",
+   "id": "spy",
+   "symbol": "SPY",
+   "name": "S&P 500 (SPY)",
    "type": "stock",
-   "price": 7376.86,
+   "price": 735.29,
    "change24h": 0.31,
    "resistance": [
     {
      "name": "BMSB 하단",
-     "value": 7535.911829,
+     "value": 751.186114,
      "pct": 2.16
     },
     {
      "name": "BMSB 중앙",
-     "value": 7574.661179,
-     "pct": 2.68
+     "value": 755.065555,
+     "pct": 2.69
     },
     {
      "name": "BMSB 상단",
-     "value": 7613.410529,
-     "pct": 3.21
+     "value": 758.944996,
+     "pct": 3.22
     },
     {
      "name": "100일 이평",
-     "value": 7618.70172,
-     "pct": 3.28
+     "value": 759.533599,
+     "pct": 3.3
     },
     {
      "name": "50일 이평",
-     "value": 7679.447425,
-     "pct": 4.1
+     "value": 765.679795,
+     "pct": 4.13
     }
    ],
    "support": [
     {
      "name": "200일 이평",
-     "value": 7325.053262,
-     "pct": -0.7
+     "value": 730.382549,
+     "pct": -0.67
     },
     {
      "name": "50주 이평",
-     "value": 7252.11721,
-     "pct": -1.69
+     "value": 722.928598,
+     "pct": -1.68
     },
     {
      "name": "100주 이평",
-     "value": 6696.464401,
-     "pct": -9.22
+     "value": 667.585199,
+     "pct": -9.21
     },
     {
      "name": "200주 이평",
-     "value": 5777.607347,
-     "pct": -21.68
+     "value": 576.10765,
+     "pct": -21.65
     }
    ],
    "note": null
@@ -980,5 +980,525 @@
    ],
    "note": null
   }
+ ],
+ "spot_usdt": [
+  "0G",
+  "1000CAT",
+  "1000CHEEMS",
+  "1000SATS",
+  "1INCH",
+  "1MBABYDOGE",
+  "2Z",
+  "A",
+  "AAOIB",
+  "AAPLB",
+  "AAVE",
+  "ACE",
+  "ACH",
+  "ACM",
+  "ACT",
+  "ADA",
+  "ADBEB",
+  "ADX",
+  "AERO",
+  "AEVO",
+  "AGLD",
+  "AGPUB",
+  "AI",
+  "AIGENSYN",
+  "AIXBT",
+  "ALABB",
+  "ALGO",
+  "ALICE",
+  "ALLO",
+  "ALPINE",
+  "ALT",
+  "AMATB",
+  "AMCB",
+  "AMDB",
+  "AMP",
+  "AMZNB",
+  "ANIME",
+  "ANKR",
+  "APE",
+  "API3",
+  "APPB",
+  "APT",
+  "AR",
+  "ARB",
+  "ARK",
+  "ARKM",
+  "ARMB",
+  "ARPA",
+  "ASMLB",
+  "ASR",
+  "ASTER",
+  "ASTR",
+  "ASTSB",
+  "AT",
+  "ATM",
+  "ATOM",
+  "AUCTION",
+  "AUDIO",
+  "AVA",
+  "AVAX",
+  "AVGOB",
+  "AVNT",
+  "AWE",
+  "AXL",
+  "AXS",
+  "AXTIB",
+  "BABAB",
+  "BABY",
+  "BANANA",
+  "BANANAS31",
+  "BAND",
+  "BANK",
+  "BAR",
+  "BARD",
+  "BAT",
+  "BB",
+  "BBB",
+  "BCH",
+  "BEAMX",
+  "BEB",
+  "BEL",
+  "BERA",
+  "BFUSD",
+  "BICO",
+  "BIGTIME",
+  "BIO",
+  "BLUR",
+  "BMNRB",
+  "BMT",
+  "BNB",
+  "BNCB",
+  "BNSOL",
+  "BNT",
+  "BOME",
+  "BONK",
+  "BOTB",
+  "BREV",
+  "BRKBB",
+  "BROCCOLI714",
+  "BSPB",
+  "BTC",
+  "BTTC",
+  "C",
+  "C98",
+  "CAKE",
+  "CATI",
+  "CBRSB",
+  "CELO",
+  "CELR",
+  "CETUS",
+  "CFG",
+  "CFX",
+  "CGPT",
+  "CHIP",
+  "CHR",
+  "CHZ",
+  "CITY",
+  "CKB",
+  "COHRB",
+  "COINB",
+  "COMP",
+  "COOKIE",
+  "COTI",
+  "COW",
+  "CRCLB",
+  "CRDOB",
+  "CRMB",
+  "CRV",
+  "CRWDB",
+  "CRWVB",
+  "CTK",
+  "CTSI",
+  "CVC",
+  "CVX",
+  "CYBER",
+  "CYPHB",
+  "DASH",
+  "DCR",
+  "DELLB",
+  "DEXE",
+  "DGB",
+  "DIA",
+  "DJTB",
+  "DODO",
+  "DOGE",
+  "DOGS",
+  "DOLO",
+  "DOT",
+  "DRAMB",
+  "DUSK",
+  "DYDX",
+  "DYM",
+  "EDEN",
+  "EDU",
+  "EGLD",
+  "EIGEN",
+  "ENA",
+  "ENJ",
+  "ENS",
+  "ENSO",
+  "ERA",
+  "ESP",
+  "ETC",
+  "ETH",
+  "ETHFI",
+  "EUL",
+  "EUR",
+  "EURI",
+  "EWYB",
+  "F",
+  "FDUSD",
+  "FET",
+  "FF",
+  "FIDA",
+  "FIL",
+  "FLNCB",
+  "FLOKI",
+  "FLOW",
+  "FLUX",
+  "FOGO",
+  "FORM",
+  "FRAX",
+  "FTT",
+  "FWDIB",
+  "G",
+  "GALA",
+  "GAS",
+  "GENIUS",
+  "GEVB",
+  "GIGGLE",
+  "GLM",
+  "GLMR",
+  "GLWB",
+  "GMEB",
+  "GMT",
+  "GMX",
+  "GNO",
+  "GNS",
+  "GOOGLB",
+  "GPROB",
+  "GPS",
+  "GRAM",
+  "GRT",
+  "GSB",
+  "GTC",
+  "GUN",
+  "HAEDAL",
+  "HBAR",
+  "HEI",
+  "HEMI",
+  "HIMSB",
+  "HIVE",
+  "HMSTR",
+  "HOLO",
+  "HOME",
+  "HOODB",
+  "HOT",
+  "HPEB",
+  "HUMA",
+  "HYPE",
+  "HYPER",
+  "IBMB",
+  "ICP",
+  "ID",
+  "ILV",
+  "IMX",
+  "INIT",
+  "INJ",
+  "INTCB",
+  "INTWB",
+  "IO",
+  "IOST",
+  "IOTA",
+  "IOTX",
+  "IQ",
+  "IRENB",
+  "JASMY",
+  "JOE",
+  "JPMB",
+  "JST",
+  "JTO",
+  "JUP",
+  "JUV",
+  "KAIA",
+  "KAITO",
+  "KAT",
+  "KAVA",
+  "KERNEL",
+  "KGST",
+  "KITE",
+  "KMNO",
+  "KNC",
+  "KORUB",
+  "KSM",
+  "KSTRB",
+  "LA",
+  "LAYER",
+  "LAZIO",
+  "LDO",
+  "LINEA",
+  "LINK",
+  "LISTA",
+  "LITEB",
+  "LLYB",
+  "LPT",
+  "LQTY",
+  "LSK",
+  "LTC",
+  "LUMIA",
+  "LUNA",
+  "LUNC",
+  "MAGIC",
+  "MANA",
+  "MANTA",
+  "MANTRA",
+  "MARSCOIN",
+  "MASK",
+  "MAV",
+  "MBL",
+  "MDBB",
+  "ME",
+  "MEGA",
+  "MEME",
+  "MET",
+  "METAB",
+  "METIS",
+  "MINA",
+  "MIRA",
+  "MITO",
+  "MMT",
+  "MORPHO",
+  "MOVE",
+  "MOVR",
+  "MRNAB",
+  "MRVLB",
+  "MSFTB",
+  "MSTRB",
+  "MTL",
+  "MUB",
+  "MUBARAK",
+  "MUUB",
+  "MVLLB",
+  "NBISB",
+  "NEAR",
+  "NEIRO",
+  "NEO",
+  "NEWT",
+  "NEXO",
+  "NFLXB",
+  "NIGHT",
+  "NIL",
+  "NMR",
+  "NOKB",
+  "NOM",
+  "NOT",
+  "NVDAB",
+  "NXPC",
+  "OG",
+  "OGN",
+  "ONDO",
+  "ONE",
+  "ONG",
+  "ONT",
+  "OP",
+  "OPEN",
+  "OPG",
+  "OPN",
+  "ORCA",
+  "ORCLB",
+  "ORDI",
+  "OSMO",
+  "PARTI",
+  "PAXG",
+  "PDDB",
+  "PENDLE",
+  "PENGB",
+  "PENGU",
+  "PEOPLE",
+  "PEPE",
+  "PHA",
+  "PIXEL",
+  "PLTRB",
+  "PLUME",
+  "PNUT",
+  "POL",
+  "POLYX",
+  "PORTAL",
+  "PORTO",
+  "POWR",
+  "PROM",
+  "PROVE",
+  "PSG",
+  "PUMP",
+  "PUNDIX",
+  "PYPLB",
+  "PYTH",
+  "QCOMB",
+  "QI",
+  "QKC",
+  "QNT",
+  "QNTB",
+  "QQQB",
+  "QTUM",
+  "RAD",
+  "RARE",
+  "RAY",
+  "RDDTB",
+  "RE",
+  "RED",
+  "RENDER",
+  "REQ",
+  "RESOLV",
+  "REZ",
+  "RIF",
+  "RKLBB",
+  "RLC",
+  "RLUSD",
+  "ROBO",
+  "RONIN",
+  "ROSE",
+  "RPL",
+  "RSR",
+  "RUNE",
+  "RVN",
+  "RWUSD",
+  "S",
+  "SAGA",
+  "SAHARA",
+  "SAND",
+  "SANTOS",
+  "SAPIEN",
+  "SC",
+  "SCR",
+  "SECZB",
+  "SEI",
+  "SENT",
+  "SFP",
+  "SHAZB",
+  "SHELL",
+  "SHIB",
+  "SIGN",
+  "SKDDB",
+  "SKHYB",
+  "SKL",
+  "SKUUB",
+  "SKY",
+  "SLP",
+  "SMCIB",
+  "SMHB",
+  "SNDKB",
+  "SNX",
+  "SNXXB",
+  "SOL",
+  "SOLV",
+  "SOMI",
+  "SOPH",
+  "SOXLB",
+  "SOXSB",
+  "SPCXB",
+  "SPELL",
+  "SPK",
+  "SPYB",
+  "SQQQB",
+  "SSV",
+  "STEEM",
+  "STO",
+  "STRAX",
+  "STRK",
+  "STX",
+  "STXB",
+  "SUI",
+  "SUN",
+  "SUPER",
+  "SUSHI",
+  "SXT",
+  "SYN",
+  "SYRUP",
+  "T",
+  "TAO",
+  "TFUEL",
+  "THE",
+  "THETA",
+  "TIA",
+  "TKO",
+  "TLM",
+  "TMFB",
+  "TNSR",
+  "TOWNS",
+  "TQQQB",
+  "TRB",
+  "TREE",
+  "TRUMP",
+  "TRX",
+  "TSLAB",
+  "TSMB",
+  "TST",
+  "TURBO",
+  "TURTLE",
+  "TUSD",
+  "TUT",
+  "TWT",
+  "U",
+  "UMA",
+  "UNI",
+  "USARB",
+  "USD1",
+  "USDC",
+  "USDE",
+  "USDEB",
+  "USDS",
+  "USTC",
+  "USUAL",
+  "UVXYB",
+  "VANA",
+  "VET",
+  "VIRTUAL",
+  "VSTB",
+  "VTHO",
+  "W",
+  "WAL",
+  "WAXP",
+  "WBETH",
+  "WBTC",
+  "WCT",
+  "WDCB",
+  "WENB",
+  "WIF",
+  "WIN",
+  "WLD",
+  "WLFI",
+  "WOO",
+  "XAI",
+  "XAUT",
+  "XEC",
+  "XLM",
+  "XNO",
+  "XPL",
+  "XRP",
+  "XTZ",
+  "XUSD",
+  "XVG",
+  "XVS",
+  "YB",
+  "YFI",
+  "YGG",
+  "ZAMA",
+  "ZBT",
+  "ZEC",
+  "ZEN",
+  "ZIL",
+  "ZK",
+  "ZKC",
+  "ZKP",
+  "ZMB",
+  "ZRO",
+  "ZRX",
+  "币安人生",
+  "牛来"
  ]
 }

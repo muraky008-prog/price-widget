@@ -20,7 +20,7 @@ OUT = Path(__file__).with_name("data.json")
 ERRORS = []
 
 STOCKS = [
-    ("^GSPC", "S&P 500"),
+    ("SPY", "S&P 500 (SPY)"),
     ("NVDA", "엔비디아"),
     ("IONQ", "아이온큐"),
     ("QQQ", "인베스코 QQQ"),
@@ -270,8 +270,22 @@ def safe(fn, kind):
     # 일부 종목만 실패한 경우 지난 값으로 채움
     have = {a["id"] for a in got}
     if kind == "stock":
-        got += [a for a in previous(kind) if a["id"] not in have]
+        wanted = {s.lower().replace("^", "") for s, _ in STOCKS}
+        got += [a for a in previous(kind) if a["id"] not in have and a["id"] in wanted]
     return got
+
+
+def spot_usdt_bases():
+    """앱의 종목 검색용: 바이낸스 Spot 에서 거래 중인 USDT 페어의 기준 자산 목록."""
+    try:
+        info = get_json(f"{BINANCE}/api/v3/exchangeInfo?permissions=SPOT&symbolStatus=TRADING")
+        return sorted({s["baseAsset"] for s in info["symbols"] if s.get("quoteAsset") == "USDT"})
+    except Exception as e:  # noqa: BLE001
+        log_error("binance exchangeInfo", e)
+        try:
+            return json.loads(OUT.read_text(encoding="utf-8")).get("spot_usdt", [])
+        except Exception:  # noqa: BLE001
+            return []
 
 
 def main():
@@ -282,6 +296,7 @@ def main():
         "updated_unix": int(now.timestamp()),
         "errors": ERRORS,
         "assets": assets,
+        "spot_usdt": spot_usdt_bases(),
     }
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"saved {len(assets)} assets, {len(ERRORS)} errors -> {OUT}")

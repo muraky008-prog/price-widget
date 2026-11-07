@@ -32,9 +32,17 @@ class PickActivity : Activity() {
         list.setOnItemClickListener { _, _, pos, _ -> choose(items[pos]) }
         findViewById<View>(R.id.btnRefresh).setOnClickListener { refresh() }
         findViewById<View>(R.id.btnClose).setOnClickListener { finish() }
+        findViewById<View>(R.id.btnManage).setOnClickListener {
+            startActivity(android.content.Intent(this, ManageActivity::class.java))
+        }
 
         showData()
         if (items.isEmpty()) refresh()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        showData() // 종목 관리 화면에서 돌아왔을 때 목록 갱신
     }
 
     private fun showData() {
@@ -54,6 +62,7 @@ class PickActivity : Activity() {
         val app = applicationContext
         Thread {
             val ok = DataRepo.fetch(app)
+            Calc.refreshAll(app)
             runOnUiThread {
                 if (isFinishing) return@runOnUiThread
                 showData()
@@ -116,7 +125,11 @@ class PickActivity : Activity() {
             val type = DataRepo.str(a, "type")
             if (type != prevType) {
                 header.visibility = View.VISIBLE
-                header.text = if (isCoin) "코인 (시총 상위)" else "주식 · ETF"
+                header.text = when (type) {
+                    "coin" -> "코인 (시총 상위)"
+                    "custom" -> "내가 추가한 바이낸스 종목"
+                    else -> "주식 · ETF"
+                }
             } else {
                 header.visibility = View.GONE
             }

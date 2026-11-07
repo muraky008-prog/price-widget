@@ -90,7 +90,7 @@ class PriceWidget : AppWidgetProvider() {
 
             val chg = DataRepo.num(a, "change24h")
             if (chg != null) {
-                v.setTextViewText(R.id.tvChange, DataRepo.fmtPct(chg) + if (isCoin) " 24h" else " 전일비")
+                v.setTextViewText(R.id.tvChange, DataRepo.fmtPct(chg) + if (DataRepo.str(a, "type") == "stock") " 전일비" else " 24h")
                 v.setTextColor(R.id.tvChange, if (chg >= 0) ctx.getColor(R.color.up) else ctx.getColor(R.color.down))
             } else {
                 v.setTextViewText(R.id.tvChange, "")

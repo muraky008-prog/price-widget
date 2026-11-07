@@ -16,6 +16,8 @@ import java.util.concurrent.TimeUnit
 class UpdateWorker(ctx: Context, params: WorkerParameters) : Worker(ctx, params) {
     override fun doWork(): Result {
         val ok = DataRepo.fetch(applicationContext)
+        Calc.refreshAll(applicationContext)
+        DataRepo.setLoading(applicationContext, false)
         PriceWidget.updateAll(applicationContext)
         return if (ok) Result.success() else Result.retry()
     }

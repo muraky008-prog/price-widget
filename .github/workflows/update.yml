@@ -35,5 +35,6 @@ jobs:
             echo "no changes"
           else
             git commit -m "update prices $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+            git pull --rebase
             git push
           fi

@@ -1,550 +1,491 @@
 {
- "updated": "2026-11-07 14:10 KST",
- "updated_unix": 1794028209,
+ "updated": "2026-11-07 14:17 KST",
+ "updated_unix": 1794028649,
+ "errors": [],
  "assets": [
-  {
-   "id": "btc",
-   "symbol": "BTC",
-   "name": "Bitcoin",
-   "type": "coin",
-   "rank": 1,
-   "price": 75918.55,
-   "change24h": 0.38306,
-   "resistance": [
-    {
-     "name": "BMSB 상단",
-     "value": 76692.957231,
-     "pct": 1.02
-    },
-    {
-     "name": "100일 이평",
-     "value": 77227.08,
-     "pct": 1.72
-    },
-    {
-     "name": "50일 이평",
-     "value": 81950.6152,
-     "pct": 7.95
-    },
-    {
-     "name": "100주 이평",
-     "value": 89113.5345,
-     "pct": 17.38
-    }
-   ],
-   "support": [
-    {
-     "name": "50주 이평",
-     "value": 75556.6136,
-     "pct": -0.48
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 75186.396866,
-     "pct": -0.96
-    },
-    {
-     "name": "BMSB 하단",
-     "value": 73679.8365,
-     "pct": -2.95
-    },
-    {
-     "name": "200일 이평",
-     "value": 73240.44395,
-     "pct": -3.53
-    },
-    {
-     "name": "200주 이평",
-     "value": 67765.81675,
-     "pct": -10.74
-    },
-    {
-     "name": "실현가격",
-     "value": 53994.61,
-     "pct": -28.88
-    }
-   ],
-   "note": "실현가격 기준일 2026-10-31 (무료 데이터 약 7일 지연)"
-  },
-  {
-   "id": "eth",
-   "symbol": "ETH",
-   "name": "Ethereum",
-   "type": "coin",
-   "rank": 2,
-   "price": 2246.57,
-   "change24h": 0.8218,
-   "resistance": [
-    {
-     "name": "BMSB 중앙",
-     "value": 2265.177034,
-     "pct": 0.83
-    },
-    {
-     "name": "50주 이평",
-     "value": 2303.9794,
-     "pct": 2.56
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 2310.601568,
-     "pct": 2.85
-    },
-    {
-     "name": "100일 이평",
-     "value": 2368.113,
-     "pct": 5.41
-    },
-    {
-     "name": "50일 이평",
-     "value": 2493.3708,
-     "pct": 10.99
-    },
-    {
-     "name": "200주 이평",
-     "value": 2558.59705,
-     "pct": 13.89
-    },
-    {
-     "name": "100주 이평",
-     "value": 2708.7438,
-     "pct": 20.57
-    }
-   ],
-   "support": [
-    {
-     "name": "BMSB 하단",
-     "value": 2219.7525,
-     "pct": -1.19
-    },
-    {
-     "name": "200일 이평",
-     "value": 2157.2677,
-     "pct": -3.98
-    }
-   ],
-   "note": null
-  },
-  {
-   "id": "bnb",
-   "symbol": "BNB",
-   "name": "BNB",
-   "type": "coin",
-   "rank": 3,
-   "price": 694.88,
-   "change24h": 0.50027,
-   "resistance": [
-    {
-     "name": "50주 이평",
-     "value": 695.1678,
-     "pct": 0.04
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 699.195163,
-     "pct": 0.62
-    },
-    {
-     "name": "100일 이평",
-     "value": 706.7753,
-     "pct": 1.71
-    },
-    {
-     "name": "100주 이평",
-     "value": 727.9214,
-     "pct": 4.75
-    },
-    {
-     "name": "50일 이평",
-     "value": 745.2354,
-     "pct": 7.25
-    }
-   ],
-   "support": [
-    {
-     "name": "BMSB 중앙",
-     "value": 686.651831,
-     "pct": -1.18
-    },
-    {
-     "name": "BMSB 하단",
-     "value": 674.1085,
-     "pct": -2.99
-    },
-    {
-     "name": "200일 이평",
-     "value": 657.68055,
-     "pct": -5.35
-    },
-    {
-     "name": "200주 이평",
-     "value": 563.73855,
-     "pct": -18.87
-    }
-   ],
-   "note": null
-  },
-  {
-   "id": "xrp",
-   "symbol": "XRP",
-   "name": "XRP",
-   "type": "coin",
-   "rank": 4,
-   "price": 1.1553,
-   "change24h": -3.71529,
-   "resistance": [
-    {
-     "name": "BMSB 하단",
-     "value": 1.25614,
-     "pct": 8.73
-    },
-    {
-     "name": "200일 이평",
-     "value": 1.270539,
-     "pct": 9.97
-    },
-    {
-     "name": "200주 이평",
-     "value": 1.283314,
-     "pct": 11.08
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 1.286243,
-     "pct": 11.33
-    },
-    {
-     "name": "100일 이평",
-     "value": 1.312996,
-     "pct": 13.65
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 1.316347,
-     "pct": 13.94
-    },
-    {
-     "name": "50일 이평",
-     "value": 1.377734,
-     "pct": 19.25
-    },
-    {
-     "name": "50주 이평",
-     "value": 1.434274,
-     "pct": 24.15
-    },
-    {
-     "name": "100주 이평",
-     "value": 1.983266,
-     "pct": 71.67
-    }
-   ],
-   "support": [],
-   "note": null
-  },
-  {
-   "id": "sol",
-   "symbol": "SOL",
-   "name": "Solana",
-   "type": "coin",
-   "rank": 5,
-   "price": 89.99,
-   "change24h": 0.76792,
-   "resistance": [
-    {
-     "name": "BMSB 하단",
-     "value": 93.3355,
-     "pct": 3.72
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 95.296149,
-     "pct": 5.9
-    },
-    {
-     "name": "50주 이평",
-     "value": 96.0584,
-     "pct": 6.74
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 97.256799,
-     "pct": 8.08
-    },
-    {
-     "name": "100일 이평",
-     "value": 99.2744,
-     "pct": 10.32
-    },
-    {
-     "name": "50일 이평",
-     "value": 107.7924,
-     "pct": 19.78
-    },
-    {
-     "name": "200주 이평",
-     "value": 113.6796,
-     "pct": 26.32
-    },
-    {
-     "name": "100주 이평",
-     "value": 136.2797,
-     "pct": 51.44
-    }
-   ],
-   "support": [
-    {
-     "name": "200일 이평",
-     "value": 89.05655,
-     "pct": -1.04
-    }
-   ],
-   "note": null
-  },
-  {
-   "id": "trx",
-   "symbol": "TRX",
-   "name": "TRON",
-   "type": "coin",
-   "rank": 6,
-   "price": 0.3176,
-   "change24h": -0.32259,
-   "resistance": [
-    {
-     "name": "50주 이평",
-     "value": 0.318214,
-     "pct": 0.19
-    },
-    {
-     "name": "BMSB 하단",
-     "value": 0.328971,
-     "pct": 3.58
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 0.329981,
-     "pct": 3.9
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 0.33099,
-     "pct": 4.22
-    },
-    {
-     "name": "50일 이평",
-     "value": 0.331556,
-     "pct": 4.39
-    },
-    {
-     "name": "100일 이평",
-     "value": 0.332891,
-     "pct": 4.81
-    },
-    {
-     "name": "200일 이평",
-     "value": 0.333451,
-     "pct": 4.99
-    }
-   ],
-   "support": [
-    {
-     "name": "100주 이평",
-     "value": 0.29903,
-     "pct": -5.85
-    },
-    {
-     "name": "200주 이평",
-     "value": 0.204263,
-     "pct": -35.69
-    }
-   ],
-   "note": null
-  },
-  {
-   "id": "zec",
-   "symbol": "ZEC",
-   "name": "Zcash",
-   "type": "coin",
-   "rank": 7,
-   "price": 1314.5,
-   "change24h": 3.11564,
-   "resistance": [],
-   "support": [
-    {
-     "name": "50일 이평",
-     "value": 1311.8588,
-     "pct": -0.2
-    },
-    {
-     "name": "100일 이평",
-     "value": 1055.6875,
-     "pct": -19.69
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 990.932872,
-     "pct": -24.62
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 958.296436,
-     "pct": -27.1
-    },
-    {
-     "name": "BMSB 하단",
-     "value": 925.66,
-     "pct": -29.58
-    },
-    {
-     "name": "200일 이평",
-     "value": 771.05635,
-     "pct": -41.34
-    },
-    {
-     "name": "50주 이평",
-     "value": 595.928,
-     "pct": -54.67
-    },
-    {
-     "name": "100주 이평",
-     "value": 348.8096,
-     "pct": -73.46
-    },
-    {
-     "name": "200주 이평",
-     "value": 190.34075,
-     "pct": -85.52
-    }
-   ],
-   "note": null
-  },
   {
    "id": "hype",
    "symbol": "HYPE",
    "name": "Hyperliquid",
    "type": "coin",
-   "rank": 8,
-   "price": 79.18,
-   "change24h": 1.69649,
-   "resistance": [],
-   "support": [],
-   "note": null
+   "rank": 1,
+   "price": 79.0,
+   "change24h": 1.73396,
+   "resistance": [
+    {
+     "name": "50일 이평",
+     "value": 85.332247,
+     "pct": 8.02
+    }
+   ],
+   "support": [
+    {
+     "name": "100일 이평",
+     "value": 78.466246,
+     "pct": -0.68
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 74.474937,
+     "pct": -5.73
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 74.247214,
+     "pct": -6.02
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 74.019492,
+     "pct": -6.3
+    },
+    {
+     "name": "200일 이평",
+     "value": 67.980152,
+     "pct": -13.95
+    },
+    {
+     "name": "50주 이평",
+     "value": 52.796109,
+     "pct": -33.17
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
   },
   {
    "id": "xmr",
    "symbol": "XMR",
    "name": "Monero",
    "type": "coin",
-   "rank": 9,
-   "price": 118.7,
-   "change24h": -1.50837,
-   "resistance": [
+   "rank": 2,
+   "price": 611.48,
+   "change24h": -1.52086,
+   "resistance": [],
+   "support": [
     {
      "name": "50일 이평",
-     "value": 146.808,
-     "pct": 23.68
-    },
-    {
-     "name": "BMSB 하단",
-     "value": 150.999231,
-     "pct": 27.21
-    },
-    {
-     "name": "BMSB 중앙",
-     "value": 154.429616,
-     "pct": 30.1
-    },
-    {
-     "name": "200일 이평",
-     "value": 155.1725,
-     "pct": 30.73
-    },
-    {
-     "name": "50주 이평",
-     "value": 155.708,
-     "pct": 31.18
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 157.86,
-     "pct": 32.99
+     "value": 573.730282,
+     "pct": -6.17
     },
     {
      "name": "100일 이평",
-     "value": 158.031,
-     "pct": 33.13
+     "value": 511.583459,
+     "pct": -16.34
     },
     {
-     "name": "100주 이평",
-     "value": 158.358,
-     "pct": 33.41
-    },
-    {
-     "name": "200주 이평",
-     "value": 172.89815,
-     "pct": 45.66
-    }
-   ],
-   "support": [],
-   "note": null
-  },
-  {
-   "id": "doge",
-   "symbol": "DOGE",
-   "name": "Dogecoin",
-   "type": "coin",
-   "rank": 10,
-   "price": 0.07186,
-   "change24h": 0.49806,
-   "resistance": [
-    {
-     "name": "BMSB 하단",
-     "value": 0.079939,
-     "pct": 11.24
+     "name": "BMSB 상단",
+     "value": 498.38128,
+     "pct": -18.5
     },
     {
      "name": "BMSB 중앙",
-     "value": 0.082218,
+     "value": 483.955719,
+     "pct": -20.86
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 469.530158,
+     "pct": -23.21
+    },
+    {
+     "name": "200일 이평",
+     "value": 433.050415,
+     "pct": -29.18
+    },
+    {
+     "name": "50주 이평",
+     "value": 418.408029,
+     "pct": -31.57
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "wbt",
+   "symbol": "WBT",
+   "name": "WhiteBIT Coin",
+   "type": "coin",
+   "rank": 3,
+   "price": 72.91,
+   "change24h": 0.49383,
+   "resistance": [
+    {
+     "name": "100일 이평",
+     "value": 73.84433,
+     "pct": 1.28
+    },
+    {
+     "name": "50일 이평",
+     "value": 80.455466,
+     "pct": 10.35
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 상단",
+     "value": 70.476075,
+     "pct": -3.34
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 69.587441,
+     "pct": -4.56
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 68.698806,
+     "pct": -5.78
+    },
+    {
+     "name": "200일 이평",
+     "value": 64.217217,
+     "pct": -11.92
+    },
+    {
+     "name": "50주 이평",
+     "value": 59.947537,
+     "pct": -17.78
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "leo",
+   "symbol": "LEO",
+   "name": "LEO Token",
+   "type": "coin",
+   "rank": 4,
+   "price": 9.34,
+   "change24h": -0.06518,
+   "resistance": [
+    {
+     "name": "50주 이평",
+     "value": 9.345759,
+     "pct": 0.06
+    },
+    {
+     "name": "200일 이평",
+     "value": 9.50908,
+     "pct": 1.81
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 상단",
+     "value": 9.303659,
+     "pct": -0.39
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 9.294257,
+     "pct": -0.49
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 9.284856,
+     "pct": -0.59
+    },
+    {
+     "name": "100일 이평",
+     "value": 9.213481,
+     "pct": -1.35
+    },
+    {
+     "name": "50일 이평",
+     "value": 9.062043,
+     "pct": -2.98
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "rain",
+   "symbol": "RAIN",
+   "name": "Rain",
+   "type": "coin",
+   "rank": 5,
+   "price": 0.00579604,
+   "change24h": -4.45651,
+   "resistance": [
+    {
+     "name": "50일 이평",
+     "value": 0.009713,
+     "pct": 67.58
+    },
+    {
+     "name": "50주 이평",
+     "value": 0.01051,
+     "pct": 81.33
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 0.011059,
+     "pct": 90.8
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 0.011889,
+     "pct": 105.12
+    },
+    {
+     "name": "200일 이평",
+     "value": 0.012082,
+     "pct": 108.45
+    },
+    {
+     "name": "100일 이평",
+     "value": 0.012138,
+     "pct": 109.42
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 0.012719,
+     "pct": 119.44
+    }
+   ],
+   "support": [],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "cc",
+   "symbol": "CC",
+   "name": "Canton",
+   "type": "coin",
+   "rank": 6,
+   "price": 0.095161,
+   "change24h": -2.8644,
+   "resistance": [
+    {
+     "name": "100일 이평",
+     "value": 0.108633,
+     "pct": 14.16
+    },
+    {
+     "name": "50일 이평",
+     "value": 0.111537,
+     "pct": 17.21
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 0.115728,
+     "pct": 21.61
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 0.116017,
+     "pct": 21.92
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 0.116305,
+     "pct": 22.22
+    },
+    {
+     "name": "200일 이평",
+     "value": 0.127812,
+     "pct": 34.31
+    },
+    {
+     "name": "50주 이평",
+     "value": 0.131997,
+     "pct": 38.71
+    }
+   ],
+   "support": [],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "gram",
+   "symbol": "GRAM",
+   "name": "Gram (prev. Toncoin)",
+   "type": "coin",
+   "rank": 7,
+   "price": 1.1,
+   "change24h": 0.6466,
+   "resistance": [
+    {
+     "name": "50일 이평",
+     "value": 1.361035,
+     "pct": 23.73
+    },
+    {
+     "name": "100일 이평",
+     "value": 1.368295,
+     "pct": 24.39
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 1.414138,
+     "pct": 28.56
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 1.421363,
+     "pct": 29.21
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 1.428588,
+     "pct": 29.87
+    },
+    {
+     "name": "50주 이평",
+     "value": 1.509382,
+     "pct": 37.22
+    },
+    {
+     "name": "200일 이평",
+     "value": 1.535852,
+     "pct": 39.62
+    }
+   ],
+   "support": [],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "cro",
+   "symbol": "CRO",
+   "name": "Cronos",
+   "type": "coin",
+   "rank": 8,
+   "price": 0.04976965,
+   "change24h": 0.57319,
+   "resistance": [
+    {
+     "name": "100일 이평",
+     "value": 0.056916,
+     "pct": 14.36
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 0.056939,
      "pct": 14.41
     },
     {
-     "name": "100일 이평",
-     "value": 0.08223,
-     "pct": 14.43
-    },
-    {
-     "name": "BMSB 상단",
-     "value": 0.084497,
-     "pct": 17.59
+     "name": "BMSB 중앙",
+     "value": 0.058287,
+     "pct": 17.11
     },
     {
      "name": "50일 이평",
-     "value": 0.08482,
-     "pct": 18.04
+     "value": 0.059271,
+     "pct": 19.09
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 0.059634,
+     "pct": 19.82
     },
     {
      "name": "200일 이평",
-     "value": 0.085621,
-     "pct": 19.15
+     "value": 0.059898,
+     "pct": 20.35
     },
     {
      "name": "50주 이평",
-     "value": 0.096694,
-     "pct": 34.56
-    },
-    {
-     "name": "200주 이평",
-     "value": 0.137671,
-     "pct": 91.58
-    },
-    {
-     "name": "100주 이평",
-     "value": 0.161346,
-     "pct": 124.53
+     "value": 0.072458,
+     "pct": 45.59
     }
    ],
    "support": [],
-   "note": null
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "usdy",
+   "symbol": "USDY",
+   "name": "Ondo US Dollar Yield",
+   "type": "coin",
+   "rank": 9,
+   "price": 1.15,
+   "change24h": 0.1991,
+   "resistance": [],
+   "support": [
+    {
+     "name": "50일 이평",
+     "value": 1.148213,
+     "pct": -0.16
+    },
+    {
+     "name": "100일 이평",
+     "value": 1.145033,
+     "pct": -0.43
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 1.142686,
+     "pct": -0.64
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 1.142667,
+     "pct": -0.64
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 1.142649,
+     "pct": -0.64
+    },
+    {
+     "name": "200일 이평",
+     "value": 1.138605,
+     "pct": -0.99
+    },
+    {
+     "name": "50주 이평",
+     "value": 1.132198,
+     "pct": -1.55
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
+  },
+  {
+   "id": "okb",
+   "symbol": "OKB",
+   "name": "OKB",
+   "type": "coin",
+   "rank": 10,
+   "price": 105.1,
+   "change24h": -0.13199,
+   "resistance": [
+    {
+     "name": "BMSB 상단",
+     "value": 105.692413,
+     "pct": 0.56
+    },
+    {
+     "name": "100일 이평",
+     "value": 111.071262,
+     "pct": 5.68
+    },
+    {
+     "name": "50일 이평",
+     "value": 117.193984,
+     "pct": 11.51
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 중앙",
+     "value": 104.444856,
+     "pct": -0.62
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 103.197299,
+     "pct": -1.81
+    },
+    {
+     "name": "50주 이평",
+     "value": 96.927213,
+     "pct": -7.78
+    },
+    {
+     "name": "200일 이평",
+     "value": 96.139347,
+     "pct": -8.53
+    }
+   ],
+   "note": "1년치 데이터만 있어 장기 주봉 이평 일부 없음"
   },
   {
    "id": "gspc",

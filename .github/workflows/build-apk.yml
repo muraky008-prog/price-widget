@@ -1,0 +1,60 @@
+name: Build APK
+
+on:
+  push:
+    paths:
+      - "android/**"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.10.2"
+
+      # 처음 한 번만 서명키를 만들어 저장소에 저장 (이후 빌드도 같은 키 → 앱 업데이트 가능)
+      - name: Create signing key (first run only)
+        run: |
+          if [ ! -f android/debug.keystore ]; then
+            keytool -genkeypair -keystore android/debug.keystore -storepass android \
+              -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 \
+              -validity 10000 -dname "CN=Price Widget"
+            git config user.name "price-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add android/debug.keystore
+            git commit -m "add app signing key"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Build
+        working-directory: android
+        run: gradle assembleDebug --no-daemon --stacktrace
+
+      # 폰에서 고정 주소로 받을 수 있게 "latest" 릴리스로 올림
+      - name: Publish to Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk price-widget.apk
+          gh release delete latest -y --cleanup-tag || true
+          gh release create latest price-widget.apk \
+            --title "가격 위젯 (빌드 ${{ github.run_number }})" \
+            --notes "폰에서 price-widget.apk 를 눌러 받은 뒤 설치하세요."

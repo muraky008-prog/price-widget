@@ -29,6 +29,7 @@ EXCLUDE = {
     "usdt", "usdc", "usds", "dai", "fdusd", "tusd", "usde", "pyusd", "usd1", "busd",
     "usdd", "frax", "usdp", "gusd", "rlusd", "usdtb", "susde", "eurc", "xaut", "paxg",
     "wbtc", "weth", "steth", "wsteth", "weeth", "cbbtc", "reth", "wbeth", "bsc-usd",
+    "figr_heloc",  # 토큰화된 대출 상품(코인 아님)
 }
 COIN_COUNT = 10
 # api.binance.com 은 미국 IP(GitHub 서버)를 차단하므로 공개 시세 전용 주소를 사용
@@ -94,7 +95,39 @@ def split_levels(price, levels):
 # ---------- 코인 ----------
 def binance_closes(symbol, interval, limit=1000):
     k = get_json(f"{BINANCE}/api/v3/klines?symbol={symbol}&interval={interval}&limit={limit}")
+    # 상장폐지된 페어는 오래된 가격이 남아있으므로 최근 3일 내 캔들이 없으면 무효
+    if not k or time.time() * 1000 - k[-1][0] > 3 * 86400 * 1000:
+        return []
     return [float(c[4]) for c in k]
+
+
+def coingecko_closes(cg_id):
+    """바이낸스 데이터가 없거나 짧을 때: 코인게코 무료 1년치 일봉 + 그걸로 만든 주봉."""
+    d = get_json(f"https://api.coingecko.com/api/v3/coins/{cg_id}/market_chart?vs_currency=usd&days=365&interval=daily")
+    pts = [(int(t), float(p)) for t, p in d["prices"]]
+    daily = [p for _, p in pts]
+    weeks = {}
+    for t, p in pts:
+        y, w, _ = datetime.fromtimestamp(t / 1000, timezone.utc).isocalendar()
+        weeks[(y, w)] = p  # 주의 마지막 종가
+    weekly = [weeks[k] for k in sorted(weeks)]
+    return daily, weekly
+
+
+def coin_history(pair, cg_id, binance_pairs):
+    """(일봉, 주봉, 출처) 반환. 바이낸스 우선, 부족하면 코인게코."""
+    daily = weekly = []
+    if pair in binance_pairs:
+        daily = binance_closes(pair, "1d")
+        if daily:
+            weekly = binance_closes(pair, "1w")
+    if len(daily) >= 200 and weekly:
+        return daily, weekly, "binance"
+    time.sleep(2)  # 코인게코 무료 호출 제한 대비
+    cd, cw = coingecko_closes(cg_id)
+    if len(cd) > len(daily):
+        return cd, cw, "coingecko"
+    return daily, weekly, "binance"
 
 
 def btc_realized_price():
@@ -116,17 +149,24 @@ def coins():
     for m in markets:
         sym = m["symbol"].lower()
         pair = sym.upper() + "USDT"
-        if sym in EXCLUDE or pair not in pairs:
+        if sym in EXCLUDE:
+            continue
+        # 바이낸스에 없으면서 가격이 1달러 근처면 스테이블/RWA 토큰으로 보고 제외
+        if pair not in pairs and abs(float(m["current_price"] or 0) - 1) < 0.05:
             continue
         try:
-            daily = binance_closes(pair, "1d")
-            weekly = binance_closes(pair, "1w")
+            daily, weekly, src = coin_history(pair, m["id"], pairs)
         except Exception as e:  # noqa: BLE001
             print("skip", pair, e)
             continue
-        price = daily[-1]
+        if len(daily) < 50:
+            print("skip (데이터 부족)", pair)
+            continue
+        price = float(m["current_price"]) if src == "coingecko" else daily[-1]
+        daily[-1] = price
+        weekly[-1] = price
         levels = build_levels(daily, weekly)
-        note = None
+        note = "1년치 데이터만 있어 장기 주봉 이평 일부 없음" if src == "coingecko" else None
         if sym == "btc":
             rp, rp_date = btc_realized_price()
             if rp:

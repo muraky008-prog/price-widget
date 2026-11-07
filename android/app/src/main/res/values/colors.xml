@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#12161B</color>
+    <color name="card">#1B2027</color>
+    <color name="line">#262C35</color>
+    <color name="selected">#263347</color>
+    <color name="text">#E8EAED</color>
+    <color name="sub">#9AA0A6</color>
+    <!-- 한국식: 오름/저항 = 빨강, 내림/지지 = 파랑 -->
+    <color name="up">#FF6464</color>
+    <color name="down">#5AA2FF</color>
+    <color name="accent">#F5C451</color>
+</resources>

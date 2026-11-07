@@ -34,7 +34,7 @@ EXCLUDE = {
     "usdt", "usdc", "usds", "dai", "fdusd", "tusd", "usde", "pyusd", "usd1", "busd",
     "usdd", "frax", "usdp", "gusd", "rlusd", "usdtb", "susde", "eurc", "xaut", "paxg",
     "wbtc", "weth", "steth", "wsteth", "weeth", "cbbtc", "reth", "wbeth", "bsc-usd",
-    "figr_heloc",
+    "figr_heloc", "usdy", "ousg", "buidl", "usyc", "syrupusdc", "usdf", "usd0",
 }
 COIN_COUNT = 10
 # api.binance.com 은 미국 IP(GitHub 서버)를 차단하므로 공개 시세 전용 주소를 사용
@@ -109,8 +109,9 @@ def split_levels(price, levels):
 # ---------- 코인 ----------
 def binance_closes(symbol, interval, limit=1000):
     k = get_json(f"{BINANCE}/api/v3/klines?symbol={symbol}&interval={interval}&limit={limit}")
-    # 상장폐지된 페어는 오래된 가격이 남아있으므로 최근 3일 내 캔들이 없으면 무효
-    if not k or time.time() * 1000 - k[-1][0] > 3 * 86400 * 1000:
+    # 상장폐지된 페어는 오래된 가격이 남아있으므로, 마지막 캔들의 "마감 시각"(c[6])이
+    # 3일 넘게 지났으면 무효 (진행 중인 캔들은 마감 시각이 미래)
+    if not k or time.time() * 1000 - k[-1][6] > 3 * 86400 * 1000:
         return []
     return [float(c[4]) for c in k]
 

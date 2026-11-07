@@ -1,0 +1,956 @@
+{
+ "updated": "2026-11-07 14:10 KST",
+ "updated_unix": 1794028209,
+ "assets": [
+  {
+   "id": "btc",
+   "symbol": "BTC",
+   "name": "Bitcoin",
+   "type": "coin",
+   "rank": 1,
+   "price": 75918.55,
+   "change24h": 0.38306,
+   "resistance": [
+    {
+     "name": "BMSB 상단",
+     "value": 76692.957231,
+     "pct": 1.02
+    },
+    {
+     "name": "100일 이평",
+     "value": 77227.08,
+     "pct": 1.72
+    },
+    {
+     "name": "50일 이평",
+     "value": 81950.6152,
+     "pct": 7.95
+    },
+    {
+     "name": "100주 이평",
+     "value": 89113.5345,
+     "pct": 17.38
+    }
+   ],
+   "support": [
+    {
+     "name": "50주 이평",
+     "value": 75556.6136,
+     "pct": -0.48
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 75186.396866,
+     "pct": -0.96
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 73679.8365,
+     "pct": -2.95
+    },
+    {
+     "name": "200일 이평",
+     "value": 73240.44395,
+     "pct": -3.53
+    },
+    {
+     "name": "200주 이평",
+     "value": 67765.81675,
+     "pct": -10.74
+    },
+    {
+     "name": "실현가격",
+     "value": 53994.61,
+     "pct": -28.88
+    }
+   ],
+   "note": "실현가격 기준일 2026-10-31 (무료 데이터 약 7일 지연)"
+  },
+  {
+   "id": "eth",
+   "symbol": "ETH",
+   "name": "Ethereum",
+   "type": "coin",
+   "rank": 2,
+   "price": 2246.57,
+   "change24h": 0.8218,
+   "resistance": [
+    {
+     "name": "BMSB 중앙",
+     "value": 2265.177034,
+     "pct": 0.83
+    },
+    {
+     "name": "50주 이평",
+     "value": 2303.9794,
+     "pct": 2.56
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 2310.601568,
+     "pct": 2.85
+    },
+    {
+     "name": "100일 이평",
+     "value": 2368.113,
+     "pct": 5.41
+    },
+    {
+     "name": "50일 이평",
+     "value": 2493.3708,
+     "pct": 10.99
+    },
+    {
+     "name": "200주 이평",
+     "value": 2558.59705,
+     "pct": 13.89
+    },
+    {
+     "name": "100주 이평",
+     "value": 2708.7438,
+     "pct": 20.57
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 하단",
+     "value": 2219.7525,
+     "pct": -1.19
+    },
+    {
+     "name": "200일 이평",
+     "value": 2157.2677,
+     "pct": -3.98
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "bnb",
+   "symbol": "BNB",
+   "name": "BNB",
+   "type": "coin",
+   "rank": 3,
+   "price": 694.88,
+   "change24h": 0.50027,
+   "resistance": [
+    {
+     "name": "50주 이평",
+     "value": 695.1678,
+     "pct": 0.04
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 699.195163,
+     "pct": 0.62
+    },
+    {
+     "name": "100일 이평",
+     "value": 706.7753,
+     "pct": 1.71
+    },
+    {
+     "name": "100주 이평",
+     "value": 727.9214,
+     "pct": 4.75
+    },
+    {
+     "name": "50일 이평",
+     "value": 745.2354,
+     "pct": 7.25
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 중앙",
+     "value": 686.651831,
+     "pct": -1.18
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 674.1085,
+     "pct": -2.99
+    },
+    {
+     "name": "200일 이평",
+     "value": 657.68055,
+     "pct": -5.35
+    },
+    {
+     "name": "200주 이평",
+     "value": 563.73855,
+     "pct": -18.87
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "xrp",
+   "symbol": "XRP",
+   "name": "XRP",
+   "type": "coin",
+   "rank": 4,
+   "price": 1.1553,
+   "change24h": -3.71529,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 1.25614,
+     "pct": 8.73
+    },
+    {
+     "name": "200일 이평",
+     "value": 1.270539,
+     "pct": 9.97
+    },
+    {
+     "name": "200주 이평",
+     "value": 1.283314,
+     "pct": 11.08
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 1.286243,
+     "pct": 11.33
+    },
+    {
+     "name": "100일 이평",
+     "value": 1.312996,
+     "pct": 13.65
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 1.316347,
+     "pct": 13.94
+    },
+    {
+     "name": "50일 이평",
+     "value": 1.377734,
+     "pct": 19.25
+    },
+    {
+     "name": "50주 이평",
+     "value": 1.434274,
+     "pct": 24.15
+    },
+    {
+     "name": "100주 이평",
+     "value": 1.983266,
+     "pct": 71.67
+    }
+   ],
+   "support": [],
+   "note": null
+  },
+  {
+   "id": "sol",
+   "symbol": "SOL",
+   "name": "Solana",
+   "type": "coin",
+   "rank": 5,
+   "price": 89.99,
+   "change24h": 0.76792,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 93.3355,
+     "pct": 3.72
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 95.296149,
+     "pct": 5.9
+    },
+    {
+     "name": "50주 이평",
+     "value": 96.0584,
+     "pct": 6.74
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 97.256799,
+     "pct": 8.08
+    },
+    {
+     "name": "100일 이평",
+     "value": 99.2744,
+     "pct": 10.32
+    },
+    {
+     "name": "50일 이평",
+     "value": 107.7924,
+     "pct": 19.78
+    },
+    {
+     "name": "200주 이평",
+     "value": 113.6796,
+     "pct": 26.32
+    },
+    {
+     "name": "100주 이평",
+     "value": 136.2797,
+     "pct": 51.44
+    }
+   ],
+   "support": [
+    {
+     "name": "200일 이평",
+     "value": 89.05655,
+     "pct": -1.04
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "trx",
+   "symbol": "TRX",
+   "name": "TRON",
+   "type": "coin",
+   "rank": 6,
+   "price": 0.3176,
+   "change24h": -0.32259,
+   "resistance": [
+    {
+     "name": "50주 이평",
+     "value": 0.318214,
+     "pct": 0.19
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 0.328971,
+     "pct": 3.58
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 0.329981,
+     "pct": 3.9
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 0.33099,
+     "pct": 4.22
+    },
+    {
+     "name": "50일 이평",
+     "value": 0.331556,
+     "pct": 4.39
+    },
+    {
+     "name": "100일 이평",
+     "value": 0.332891,
+     "pct": 4.81
+    },
+    {
+     "name": "200일 이평",
+     "value": 0.333451,
+     "pct": 4.99
+    }
+   ],
+   "support": [
+    {
+     "name": "100주 이평",
+     "value": 0.29903,
+     "pct": -5.85
+    },
+    {
+     "name": "200주 이평",
+     "value": 0.204263,
+     "pct": -35.69
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "zec",
+   "symbol": "ZEC",
+   "name": "Zcash",
+   "type": "coin",
+   "rank": 7,
+   "price": 1314.5,
+   "change24h": 3.11564,
+   "resistance": [],
+   "support": [
+    {
+     "name": "50일 이평",
+     "value": 1311.8588,
+     "pct": -0.2
+    },
+    {
+     "name": "100일 이평",
+     "value": 1055.6875,
+     "pct": -19.69
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 990.932872,
+     "pct": -24.62
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 958.296436,
+     "pct": -27.1
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 925.66,
+     "pct": -29.58
+    },
+    {
+     "name": "200일 이평",
+     "value": 771.05635,
+     "pct": -41.34
+    },
+    {
+     "name": "50주 이평",
+     "value": 595.928,
+     "pct": -54.67
+    },
+    {
+     "name": "100주 이평",
+     "value": 348.8096,
+     "pct": -73.46
+    },
+    {
+     "name": "200주 이평",
+     "value": 190.34075,
+     "pct": -85.52
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "hype",
+   "symbol": "HYPE",
+   "name": "Hyperliquid",
+   "type": "coin",
+   "rank": 8,
+   "price": 79.18,
+   "change24h": 1.69649,
+   "resistance": [],
+   "support": [],
+   "note": null
+  },
+  {
+   "id": "xmr",
+   "symbol": "XMR",
+   "name": "Monero",
+   "type": "coin",
+   "rank": 9,
+   "price": 118.7,
+   "change24h": -1.50837,
+   "resistance": [
+    {
+     "name": "50일 이평",
+     "value": 146.808,
+     "pct": 23.68
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 150.999231,
+     "pct": 27.21
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 154.429616,
+     "pct": 30.1
+    },
+    {
+     "name": "200일 이평",
+     "value": 155.1725,
+     "pct": 30.73
+    },
+    {
+     "name": "50주 이평",
+     "value": 155.708,
+     "pct": 31.18
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 157.86,
+     "pct": 32.99
+    },
+    {
+     "name": "100일 이평",
+     "value": 158.031,
+     "pct": 33.13
+    },
+    {
+     "name": "100주 이평",
+     "value": 158.358,
+     "pct": 33.41
+    },
+    {
+     "name": "200주 이평",
+     "value": 172.89815,
+     "pct": 45.66
+    }
+   ],
+   "support": [],
+   "note": null
+  },
+  {
+   "id": "doge",
+   "symbol": "DOGE",
+   "name": "Dogecoin",
+   "type": "coin",
+   "rank": 10,
+   "price": 0.07186,
+   "change24h": 0.49806,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 0.079939,
+     "pct": 11.24
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 0.082218,
+     "pct": 14.41
+    },
+    {
+     "name": "100일 이평",
+     "value": 0.08223,
+     "pct": 14.43
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 0.084497,
+     "pct": 17.59
+    },
+    {
+     "name": "50일 이평",
+     "value": 0.08482,
+     "pct": 18.04
+    },
+    {
+     "name": "200일 이평",
+     "value": 0.085621,
+     "pct": 19.15
+    },
+    {
+     "name": "50주 이평",
+     "value": 0.096694,
+     "pct": 34.56
+    },
+    {
+     "name": "200주 이평",
+     "value": 0.137671,
+     "pct": 91.58
+    },
+    {
+     "name": "100주 이평",
+     "value": 0.161346,
+     "pct": 124.53
+    }
+   ],
+   "support": [],
+   "note": null
+  },
+  {
+   "id": "gspc",
+   "symbol": "GSPC",
+   "name": "S&P 500",
+   "type": "stock",
+   "price": 7376.86,
+   "change24h": 0.31,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 7535.911829,
+     "pct": 2.16
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 7574.661179,
+     "pct": 2.68
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 7613.410529,
+     "pct": 3.21
+    },
+    {
+     "name": "100일 이평",
+     "value": 7618.70172,
+     "pct": 3.28
+    },
+    {
+     "name": "50일 이평",
+     "value": 7679.447425,
+     "pct": 4.1
+    }
+   ],
+   "support": [
+    {
+     "name": "200일 이평",
+     "value": 7325.053262,
+     "pct": -0.7
+    },
+    {
+     "name": "50주 이평",
+     "value": 7252.11721,
+     "pct": -1.69
+    },
+    {
+     "name": "100주 이평",
+     "value": 6696.464401,
+     "pct": -9.22
+    },
+    {
+     "name": "200주 이평",
+     "value": 5777.607347,
+     "pct": -21.68
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "nvda",
+   "symbol": "NVDA",
+   "name": "엔비디아",
+   "type": "stock",
+   "price": 186.64,
+   "change24h": 2.78,
+   "resistance": [
+    {
+     "name": "50주 이평",
+     "value": 200.318802,
+     "pct": 7.33
+    },
+    {
+     "name": "200일 이평",
+     "value": 204.6726,
+     "pct": 9.66
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 209.151306,
+     "pct": 12.06
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 211.070904,
+     "pct": 13.09
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 212.990501,
+     "pct": 14.12
+    },
+    {
+     "name": "100일 이평",
+     "value": 213.9876,
+     "pct": 14.65
+    },
+    {
+     "name": "50일 이평",
+     "value": 219.813201,
+     "pct": 17.77
+    }
+   ],
+   "support": [
+    {
+     "name": "100주 이평",
+     "value": 175.300601,
+     "pct": -6.08
+    },
+    {
+     "name": "200주 이평",
+     "value": 123.72064,
+     "pct": -33.71
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "ionq",
+   "symbol": "IONQ",
+   "name": "아이온큐",
+   "type": "stock",
+   "price": 32.62,
+   "change24h": 23.42,
+   "resistance": [
+    {
+     "name": "50일 이평",
+     "value": 36.9256,
+     "pct": 13.2
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 38.658,
+     "pct": 18.51
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 38.684007,
+     "pct": 18.59
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 38.710014,
+     "pct": 18.67
+    },
+    {
+     "name": "100일 이평",
+     "value": 40.0603,
+     "pct": 22.81
+    },
+    {
+     "name": "200일 이평",
+     "value": 41.53975,
+     "pct": 27.34
+    },
+    {
+     "name": "100주 이평",
+     "value": 42.1912,
+     "pct": 29.34
+    },
+    {
+     "name": "50주 이평",
+     "value": 42.4436,
+     "pct": 30.12
+    }
+   ],
+   "support": [
+    {
+     "name": "200주 이평",
+     "value": 26.77765,
+     "pct": -17.91
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "qqq",
+   "symbol": "QQQ",
+   "name": "인베스코 QQQ",
+   "type": "stock",
+   "price": 656.1,
+   "change24h": 1.4,
+   "resistance": [
+    {
+     "name": "50주 이평",
+     "value": 669.8216,
+     "pct": 2.09
+    },
+    {
+     "name": "200일 이평",
+     "value": 680.88595,
+     "pct": 3.78
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 700.091906,
+     "pct": 6.71
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 705.224954,
+     "pct": 7.49
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 710.358003,
+     "pct": 8.27
+    },
+    {
+     "name": "100일 이평",
+     "value": 716.578301,
+     "pct": 9.22
+    },
+    {
+     "name": "50일 이평",
+     "value": 720.971001,
+     "pct": 9.89
+    }
+   ],
+   "support": [
+    {
+     "name": "100주 이평",
+     "value": 605.153999,
+     "pct": -7.76
+    },
+    {
+     "name": "200주 이평",
+     "value": 505.7333,
+     "pct": -22.92
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "tsla",
+   "symbol": "TSLA",
+   "name": "테슬라",
+   "type": "stock",
+   "price": 358.22,
+   "change24h": 4.23,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 362.056497,
+     "pct": 1.07
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 366.12527,
+     "pct": 2.21
+    },
+    {
+     "name": "100일 이평",
+     "value": 366.781798,
+     "pct": 2.39
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 370.194043,
+     "pct": 3.34
+    },
+    {
+     "name": "100주 이평",
+     "value": 371.662899,
+     "pct": 3.75
+    },
+    {
+     "name": "50일 이평",
+     "value": 372.137198,
+     "pct": 3.89
+    },
+    {
+     "name": "200일 이평",
+     "value": 383.865099,
+     "pct": 7.16
+    },
+    {
+     "name": "50주 이평",
+     "value": 392.788599,
+     "pct": 9.65
+    }
+   ],
+   "support": [
+    {
+     "name": "200주 이평",
+     "value": 296.74695,
+     "pct": -17.16
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "xle",
+   "symbol": "XLE",
+   "name": "SPDR 에너지",
+   "type": "stock",
+   "price": 61.62,
+   "change24h": -0.02,
+   "resistance": [
+    {
+     "name": "BMSB 하단",
+     "value": 62.258,
+     "pct": 1.04
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 62.368196,
+     "pct": 1.21
+    },
+    {
+     "name": "BMSB 상단",
+     "value": 62.478392,
+     "pct": 1.39
+    },
+    {
+     "name": "50일 이평",
+     "value": 65.0722,
+     "pct": 5.6
+    }
+   ],
+   "support": [
+    {
+     "name": "100일 이평",
+     "value": 61.5319,
+     "pct": -0.14
+    },
+    {
+     "name": "200일 이평",
+     "value": 59.1334,
+     "pct": -4.04
+    },
+    {
+     "name": "50주 이평",
+     "value": 57.2078,
+     "pct": -7.16
+    },
+    {
+     "name": "100주 이평",
+     "value": 50.39865,
+     "pct": -18.21
+    },
+    {
+     "name": "200주 이평",
+     "value": 47.091925,
+     "pct": -23.58
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "xlu",
+   "symbol": "XLU",
+   "name": "SPDR 유틸리티",
+   "type": "stock",
+   "price": 43.13,
+   "change24h": -0.39,
+   "resistance": [
+    {
+     "name": "100일 이평",
+     "value": 43.2477,
+     "pct": 0.27
+    },
+    {
+     "name": "50주 이평",
+     "value": 44.137,
+     "pct": 2.33
+    },
+    {
+     "name": "200일 이평",
+     "value": 44.31105,
+     "pct": 2.74
+    }
+   ],
+   "support": [
+    {
+     "name": "BMSB 상단",
+     "value": 43.109,
+     "pct": -0.05
+    },
+    {
+     "name": "BMSB 중앙",
+     "value": 43.063095,
+     "pct": -0.16
+    },
+    {
+     "name": "BMSB 하단",
+     "value": 43.01719,
+     "pct": -0.26
+    },
+    {
+     "name": "100주 이평",
+     "value": 42.65525,
+     "pct": -1.1
+    },
+    {
+     "name": "50일 이평",
+     "value": 41.7734,
+     "pct": -3.15
+    },
+    {
+     "name": "200주 이평",
+     "value": 38.348075,
+     "pct": -11.09
+    }
+   ],
+   "note": null
+  }
+ ]
+}
